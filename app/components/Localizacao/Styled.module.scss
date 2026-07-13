@@ -1,0 +1,43 @@
+$dourado: #925f21;
+$white: #e6e1d9;
+$green: #5d4e2f;
+
+.sectionLocal{
+    height: 100vh;  
+    background-size: cover!important;
+    background-size: cover!important;
+    padding: 3vh;
+     @media(max-width: 980px){
+        padding: 3vh;
+        height: 45vh;
+     }
+     
+    .container{
+        max-width: 100%;
+        background: linear-gradient(#5d4e2fad, #5d4e2f00 53%);
+        height: 100%;
+        padding: 4%;
+        .title{
+            font-size: 50px;
+            color: white;
+            font-weight: 300;
+             @media(max-width: 980px){
+                font-size: 30px;
+             }
+        }
+        .botao{
+            button{
+                background: $green;
+                border: 1px solid $green;
+                color: white;
+                padding: 1.5vh 7vh;
+                border-radius: 5px;
+                text-transform: uppercase;
+                 @media(max-width: 980px){
+                    font-size: 14px;
+                    padding: 1vh 4vh;
+                 }
+            }
+        }
+    }
+}

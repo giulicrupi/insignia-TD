@@ -1,0 +1,89 @@
+$dourado: #925f21;
+$white: #e6e1d9;
+
+.formBox {
+  width: 100%;
+  height: auto;
+  padding: 40px 30px 30px;
+  position: relative;
+  // backdrop-filter: blur(5px);
+  // background-image: url('/images/formacf.svg');
+  // background-size: 100% 100%;
+  // background-repeat: no-repeat;
+  &.enviado{
+    background-image: none;
+    background-color: rgba(9, 80, 0, 0.629);
+    border-radius: 50px;
+  }
+ @media(max-width: 980px){
+  background-image: none;
+  border-radius: 8px;
+  padding: 3vh 4vh;
+  background-color: #392f1d;
+ 
+ }
+  display: flex;
+  flex-direction: column;
+
+  color: #fff;
+}
+.formGeral{
+  margin-top: 4%;
+}
+/* Título */
+.formBox h3 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+  font-weight: 300;
+  padding-left: 2%;
+}
+
+/* Inputs */
+.formBox .formControl {
+  background: rgba(255, 255, 255, 0.12);
+  border: none;
+  border-radius: 30px;
+  height: 45px;
+  width: 100%;
+  color: #fff;
+  padding-left: 18px;
+
+  &::placeholder {
+    color: #ddd;
+  }
+}
+
+/* Botão */
+.button {
+  margin-top: 10px;
+  width: 35%;
+  height: 45px;
+  background: $dourado;
+  border: none;
+  color: #111;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  align-self: flex-end; // deixa o botão alinhado à direita
+  transition: 0.3s;
+  float: right;
+  &:hover {
+    background: $white;
+  }
+}
+.obrigadoBox {
+  text-align: center;
+  padding: 20px 0;
+  background-image: none;
+
+  h3 {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: #eaeaea;
+  }
+}

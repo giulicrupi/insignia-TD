@@ -1,0 +1,98 @@
+$dourado: #925f21;
+$white: #e6e1d9;
+$green: #5d4e2f;
+
+.header {
+  width: 100%;
+  background: transparent;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  &.scrolled{
+    .container{
+      background: $green;
+    }
+  }
+    .container{
+        max-width: 85%;
+        padding: 2vh 2.5vh;
+        border-radius: 10px;
+        transition: .5s;
+        background: #392f1d;
+        backdrop-filter: blur(10px);
+    }
+}
+
+.logoMenu{
+  filter: brightness(0.5) invert(1);
+  @media(max-width: 980px){
+    width: 75%!important;
+  }
+}
+
+.link {
+  color: $white !important;
+  padding-right: 2vh!important;
+  padding-left: 2vh!important;
+  letter-spacing: .5px;
+  font-size: 11px; 
+  text-transform: uppercase;
+  transition: 0.3s ease;
+  opacity: 1;
+  &:hover {
+    color: $dourado !important; // dourado premium
+  }
+   @media(min-width: 1500px){
+    font-size: 13px;
+   }
+}
+.dourado{
+    margin-left: 3vh;
+    .link{
+        background: $white;
+        opacity: 1;
+        color: black!important;
+        font-weight: 600;
+        border-radius: 5px;
+        padding-right: 3.5vh!important;
+        padding-left: 3.5vh!important;
+    }
+    @media(max-width: 980px){
+      margin-left: 0;
+      .link{
+        width: fit-content;
+      }
+    }
+}
+
+/* BOTÃO CTA */
+.cta {
+  background: $dourado;
+  padding: 10px 22px;
+  border-radius: 30px;
+  color: #111 !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.3s;
+
+  &:hover {
+    background: $dourado;
+  }
+
+  @media (max-width: 992px) {
+    margin-top: 15px;
+    display: inline-block;
+  }
+}
+
+/* Ajuste do menu mobile */
+.navbar-collapse {
+  background: rgba(20, 26, 38, 0.85);
+  padding: 20px;
+
+  @media (min-width: 992px) {
+    background: transparent;
+    padding: 0;
+  }
+}

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1637.27 300">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Gradiente_sem_nome_5);
+      }
+
+      .cls-2 {
+        fill: url(#Gradiente_sem_nome_11-6);
+      }
+
+      .cls-3 {
+        fill: url(#Gradiente_sem_nome_11-5);
+      }
+
+      .cls-4 {
+        fill: url(#Gradiente_sem_nome_11-7);
+      }
+
+      .cls-5 {
+        fill: url(#Gradiente_sem_nome_11);
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        fill: url(#Gradiente_sem_nome_11-10);
+      }
+
+      .cls-8 {
+        fill: url(#Gradiente_sem_nome_11-2);
+      }
+
+      .cls-9 {
+        fill: url(#Gradiente_sem_nome_11-8);
+      }
+
+      .cls-10 {
+        fill: url(#Gradiente_sem_nome_11-9);
+      }
+
+      .cls-11 {
+        fill: url(#Gradiente_sem_nome_11-3);
+      }
+
+      .cls-12 {
+        fill: url(#Gradiente_sem_nome_11-4);
+      }
+    </style>
+    <linearGradient id="Gradiente_sem_nome_11" data-name="Gradiente sem nome 11" x1="1516.9" y1="126.84" x2="1516.9" y2="79.51" gradientTransform="translate(0 300) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradiente_sem_nome_11-2" data-name="Gradiente sem nome 11" x1="1307.74" x2="1307.74" xlink:href="#Gradiente_sem_nome_11"/>
+    <linearGradient id="Gradiente_sem_nome_11-3" data-name="Gradiente sem nome 11" x1="1118.5" x2="1118.5" xlink:href="#Gradiente_sem_nome_11"/>
+    <linearGradient id="Gradiente_sem_nome_11-4" data-name="Gradiente sem nome 11" x1="891.3" x2="891.3" xlink:href="#Gradiente_sem_nome_11"/>
+    <linearGradient id="Gradiente_sem_nome_5" data-name="Gradiente sem nome 5" x1="934.04" y1="126.84" x2="934.04" y2="79.51" gradientTransform="translate(0 300) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fffffc"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradiente_sem_nome_11-5" data-name="Gradiente sem nome 11" x1="720.24" x2="720.24" xlink:href="#Gradiente_sem_nome_11"/>
+    <linearGradient id="Gradiente_sem_nome_11-6" data-name="Gradiente sem nome 11" x1="531" x2="531" xlink:href="#Gradiente_sem_nome_11"/>
+    <linearGradient id="Gradiente_sem_nome_11-7" data-name="Gradiente sem nome 11" x1="291.09" x2="291.09" xlink:href="#Gradiente_sem_nome_11"/>
+    <linearGradient id="Gradiente_sem_nome_11-8" data-name="Gradiente sem nome 11" x1="333.82" x2="333.82" xlink:href="#Gradiente_sem_nome_11"/>
+    <linearGradient id="Gradiente_sem_nome_11-9" data-name="Gradiente sem nome 11" x1="120.03" x2="120.03" xlink:href="#Gradiente_sem_nome_11"/>
+    <linearGradient id="Gradiente_sem_nome_11-10" data-name="Gradiente sem nome 11" x1="818.64" x2="818.64" xlink:href="#Gradiente_sem_nome_11"/>
+  </defs>
+  <g id="Camada_1-2" data-name="Camada 1">
+    <g id="Layer_1" data-name="Layer 1">
+      <g>
+        <path class="cls-6" d="M524.51,297.77h-11.88v-13.15h11.88c6.1,0,9.42,2,9.42,6.55s-3.32,6.6-9.42,6.6M523.51,269.92c5.51,0,8.69,2.14,8.69,6.33s-3.19,6.37-8.69,6.37h-10.88v-12.7h10.88ZM529.25,283.34c3.19-1.05,5.32-3.5,5.32-7.28,0-5.28-4.14-8.15-10.97-8.15h-13.29v31.86h14.2c7.83,0,11.74-3.05,11.74-8.42,0-4.41-2.5-7.14-7.01-8.01"/>
+        <path class="cls-6" d="M599.26,287.3v-17.29h9.1c6.83,0,10.47,3.14,10.47,8.65s-3.64,8.65-10.47,8.65h-9.1ZM621.69,299.77l-7.96-11.15c4.73-1.41,7.46-4.92,7.46-9.97,0-6.74-4.82-10.74-12.83-10.74h-11.42v31.86h2.32v-10.42h9.1c1.09,0,2.09-.09,3.09-.23l7.6,10.65h2.64Z"/>
+        <path class="cls-6" d="M698.94,297.86c-8.15,0-14.24-5.96-14.24-14.02s6.1-14.02,14.24-14.02,14.2,5.96,14.2,14.02-6.1,14.02-14.2,14.02M698.94,300c9.47,0,16.57-6.87,16.57-16.16s-7.1-16.16-16.57-16.16-16.57,6.92-16.57,16.16,7.05,16.16,16.57,16.16"/>
+        <path class="cls-6" d="M792.75,297.86c-8.15,0-14.24-5.96-14.24-14.02s6.1-14.02,14.24-14.02,14.2,5.96,14.2,14.02-6.1,14.02-14.2,14.02M792.75,300c9.47,0,16.57-6.87,16.57-16.16s-7.1-16.16-16.57-16.16-16.57,6.92-16.57,16.16,7.05,16.16,16.57,16.16"/>
+        <polygon class="cls-6" points="893.16 299.77 895.98 299.77 881.01 282.39 895.03 267.92 892.2 267.92 872.32 288.4 872.32 267.92 870 267.92 870 299.77 872.32 299.77 872.32 291.4 879.46 284.07 893.16 299.77"/>
+        <polygon class="cls-6" points="956.66 299.77 977.32 299.77 977.32 297.68 958.98 297.68 958.98 267.92 956.66 267.92 956.66 299.77"/>
+        <rect class="cls-6" x="1038" y="267.92" width="2.32" height="31.86"/>
+        <polygon class="cls-6" points="1124.62 267.92 1124.62 295.59 1102.96 267.92 1101.01 267.92 1101.01 299.77 1103.33 299.77 1103.33 272.1 1125.03 299.77 1126.95 299.77 1126.95 267.92 1124.62 267.92"/>
+      </g>
+    </g>
+    <g id="Layer_3" data-name="Layer 3">
+      <polygon class="cls-5" points="1504.46 124.22 1508.63 143.94 1508.63 222.74 1524.87 222.74 1525.23 143.94 1529.34 124.22 1504.46 124.22"/>
+      <rect class="cls-8" x="1299.62" y="124.22" width="16.24" height="98.52"/>
+      <rect class="cls-11" x="1110.38" y="125.39" width="16.24" height="98.52"/>
+      <rect class="cls-12" x="884.41" y="125.39" width="13.77" height="98.52"/>
+      <polygon class="cls-1" points="939.49 125.39 939.49 181.88 939.14 181.88 926.58 125.39 913.4 125.39 935.85 223.91 954.68 223.91 954.68 125.39 939.49 125.39"/>
+      <rect class="cls-3" x="712.12" y="125.39" width="16.24" height="98.52"/>
+      <polygon class="cls-2" points="510.16 123.06 510.16 221.57 526.4 221.57 526.4 124.67 551.83 124.67 551.83 123.06 510.16 123.06"/>
+      <rect class="cls-4" x="284.2" y="124.22" width="13.77" height="98.52"/>
+      <polygon class="cls-9" points="339.28 124.22 339.28 180.71 338.93 180.71 326.37 124.22 313.19 124.22 335.63 222.74 354.46 222.74 354.46 124.22 339.28 124.22"/>
+      <rect class="cls-10" x="111.91" y="124.22" width="16.24" height="98.52"/>
+    </g>
+    <g id="Layer_2" data-name="Layer 2">
+      <path class="cls-7" d="M0,124.06c514.22-9.12,1018.99-8.93,1533.31-1.83l51.98.79,51.98,1.04c-410.34,1.95-1227.02,1.95-1637.26,0"/>
+    </g>
+    <g id="Layer_4" data-name="Layer 4">
+      <rect class="cls-6" x="111.91" width="16.24" height="105.5"/>
+      <polygon class="cls-6" points="297.97 105.5 297.97 40.28 298.33 40.28 313.19 105.5 326.37 105.5 302.92 0 284.2 0 284.2 105.5 297.97 105.5"/>
+      <rect class="cls-6" x="339.28" width="15.18" height="105.5"/>
+      <polygon class="cls-6" points="551.83 105.5 551.83 96.9 526.4 96.9 526.4 11.38 559.24 11.38 559.24 0 510.16 0 510.16 105.5 551.83 105.5"/>
+      <rect class="cls-6" x="712.12" width="16.24" height="105.5"/>
+      <rect class="cls-6" x="939.49" width="15.18" height="105.5"/>
+      <polygon class="cls-6" points="898.18 105.5 898.18 40.28 898.54 40.28 913.4 105.5 926.58 105.5 903.13 0 884.41 0 884.41 105.5 898.18 105.5"/>
+      <rect class="cls-6" x="1110.38" width="16.24" height="105.5"/>
+      <polygon class="cls-6" points="1299.62 105.5 1315.86 105.5 1315.86 11.38 1338.46 11.38 1338.46 0 1276.67 0 1276.67 11.38 1299.62 11.38 1299.62 105.5"/>
+      <polygon class="cls-6" points="1529.34 105.5 1551.35 0 1534.76 0 1517.11 93.98 1516.4 93.98 1498.75 0 1482.15 0 1504.46 105.5 1529.34 105.5"/>
+    </g>
+  </g>
+</svg>

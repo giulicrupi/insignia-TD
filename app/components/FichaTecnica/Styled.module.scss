@@ -1,0 +1,90 @@
+
+
+.sectionFicha{
+    min-height: 115vh;
+    background: #b7a677;
+    padding: 5vh 0;
+    .container{
+        max-width: 100%;
+        .row{
+            .colLeft{
+                padding: 0 ;
+                .fachada{
+                    width: 130%;
+                    @media(max-width: 980px){
+                      width: 100%;
+                    }
+                    height: auto;
+                    mix-blend-mode: multiply;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+/* COLUNA DIREITA */
+.colRight {
+  padding: 0;
+
+  .contentBox {
+    width: 80%;
+    color: #fff;
+    @media (max-width: 980px){
+      width: 100%;
+      padding: 0 8%;
+    }
+  }
+
+  .title {
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+  }
+
+  .infoList {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px 0;
+
+    li {
+      background: rgba(0, 0, 0, 0.068);
+      padding: 1vh 3vh;
+      border-radius: 30px;
+      margin-bottom: 2%;
+      backdrop-filter: blur(4px);
+      font-size: 18px;
+      @media (max-width: 980px){
+        font-size: 14px;
+      }
+      strong {
+        font-weight: 600;
+        color: #fff;
+      }
+    }
+  }
+  .botao{
+    display: flex;
+    justify-content: center;
+  }
+  .btnContato {
+    background: #2f2f2f;
+    color: white;
+    padding: 1.5vh 3vh;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    transition: 0.3s ease;
+
+    &:hover {
+      background: #000000bb;
+      transform: scale(1.05);
+    }
+  }
+}
