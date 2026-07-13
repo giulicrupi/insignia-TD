@@ -65,7 +65,7 @@ export const Menu = () => {
             <Image
               className={styles.logoMenu}
               src="/images/logo_insignia.svg"
-              alt="Infinity Brooklin"
+              alt="insignia"
               width={300}
               height={50}
             />

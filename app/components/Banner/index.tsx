@@ -8,7 +8,7 @@ export default function Banner() {
     <>
     <section
       className={Styled.banner}
-      style={{ backgroundImage: `url(/images/banner/banner-fachada-desk_v3.jpg)` }}
+      style={{ backgroundImage: `url(/images/banner/banner-fachada.jpg)` }}
       id="home"
     >
       <div className={`container ${Styled.container}`}>
