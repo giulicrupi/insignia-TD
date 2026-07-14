@@ -8,25 +8,10 @@
 .sectionLocalCompleta{
     background: #5d4e2f;
     padding: 10vh 0;
-    .visite{
-        .title{
+
+            .botaoVisite{
             text-align: center;
-            color: #e6e1d9;
-            letter-spacing: 1px;
-            margin-bottom: 2%;
-            font-size: 35px;
-            font-weight: 200;
-        }
-        .decorado{
-            text-align: center;
-            color: #e6e1d9;
-            letter-spacing: 1px;
-            font-size: 23px;
-            font-weight: 200;
-            margin-bottom: 2%;
-        }
-        .botaoVisite{
-            text-align: center;
+            margin-top: 1%;
             button{
                 background: #e6e1d9;
                 color: #5d4e2f;
@@ -44,6 +29,31 @@
                 }
             }
         }
+    .visite{
+        .align{
+            display: flex;
+            justify-content: center;
+        }
+        .title{
+            text-align: center;
+            color: black;
+            background: white;
+            padding: 1vh 3vh;
+            width: fit-content;
+            letter-spacing: 1px;
+            margin-bottom: 2%;
+            font-size: 35px;
+            font-weight: 200;
+        }
+        .decorado{
+            text-align: center;
+            color: #e6e1d9;
+            letter-spacing: 1px;
+            font-size: 23px;
+            font-weight: 200;
+            margin-bottom: 2%;
+        }
+
         .endereco{
             margin-bottom: 2%;
             p{

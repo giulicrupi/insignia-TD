@@ -1,7 +1,24 @@
 .galleryWrapper {
   width: 100%;
-  margin-top: 40px;
+  overflow: hidden;
+  margin-top: 0px;
+  padding-top: 5%;
+  padding-bottom: 5%;
   min-height: 100vh;
+  position: relative;
+  .linha{
+    position: absolute;
+    right: -5%;
+    bottom: 8%;
+    width: 40%!important;
+  }
+    .elemento{
+        position: absolute;
+        left: -25%;
+        width: 40%!important;
+        height: auto;
+        top: -20%;
+    }  
 }
 
 $dourado: #925f21;
@@ -24,7 +41,6 @@ $green: #5d4e2f;
   }
 
   .tabs {
-    //background: $dourado;
     padding: 0vh 4vh;
     border-radius: 50px;
 
@@ -36,14 +52,14 @@ $green: #5d4e2f;
       button {
         display: block;
         width: 100%;
-        color: $white!important;
+        color: $white !important;
       }
     }
 
     button {
       background: transparent;
       border: 1px solid #392f1d00;
-      transform: scale(.95);
+      transform: scale(0.95);
       padding: 1vh 3vh;
       color: #392f1d;
       font-size: 15px;
@@ -91,29 +107,68 @@ $green: #5d4e2f;
 }
 
 /* Layout das 7 imagens */
+
 .item:nth-child(1) {
   grid-row: span 2;
 }
+
 .item:nth-child(2) {
   grid-column: 2;
 }
+
 .item:nth-child(3) {
   grid-column: 3;
 }
+
 .item:nth-child(4) {
   grid-column: 4;
 }
+
 .item:nth-child(5) {
   grid-column: 2;
   grid-row: 2;
 }
+
 .item:nth-child(6) {
   grid-column: 3;
   grid-row: 2;
 }
+
 .item:nth-child(7) {
   grid-column: 4;
   grid-row: 2;
+}
+
+/* ---------------------- */
+/* FACHADAS */
+/* ---------------------- */
+
+.swiperFachadas {
+  width: 100%;
+
+  :global(.swiper-slide) {
+    height: auto;
+  }
+}
+
+.itemFachada {
+  display: block;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+  }
+
+  &:hover img {
+    transform: scale(1.05);
+  }
 }
 
 /* ---------------------- */
@@ -136,9 +191,10 @@ $green: #5d4e2f;
       height: 60vh !important;
       object-fit: contain;
       mix-blend-mode: darken;
-      @media (max-width: 980px){
-        width: 100%!important;
-        height: auto!important;
+
+      @media (max-width: 980px) {
+        width: 100% !important;
+        height: auto !important;
       }
     }
   }
@@ -201,33 +257,43 @@ $green: #5d4e2f;
       width: auto !important;
       height: 70vh !important;
       object-fit: contain !important;
-      @media (max-width: 980px){
-        height: 50vh!important;
-        object-position: center!important;
-      }
+      object-position: center !important;
+    }
+  }
+
+  .itemFachada {
+    width: 100%;
+    height: 50vh;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
     }
   }
 }
 
-  .botao{
-    display: flex;
-    justify-content: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
-  .btnContato {
-    background: $green;
-    color: white;
-    padding: 1.5vh 3vh;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    letter-spacing: 0.5px;
-    transition: 0.3s ease;
+.botao {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
 
-    &:hover {
-      background: #000000bb;
-      transform: scale(1.05);
-    }
+.btnContato {
+  background: $green;
+  color: white;
+  padding: 1.5vh 3vh;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  transition: 0.3s ease;
+
+  &:hover {
+    background: #000000bb;
+    transform: scale(1.05);
   }
+}

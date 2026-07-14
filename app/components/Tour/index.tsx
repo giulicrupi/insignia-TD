@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Styled from "./Styled.module.scss";
+import VillaArvosShape from "../Elemento";
 
 export default function Tour() {
         const handleScroll = () => {
@@ -17,8 +18,17 @@ export default function Tour() {
   };    
   return (
     <section className={Styled.sectionTour} id="tour">
+
+        <VillaArvosShape
+        style={{
+            width: "100%",
+            height: "auto",
+            display: "block",
+        }}
+        className={Styled.elemento}
+        />
         <div className={` container ${Styled.container}`}>
-            <p className={Styled.title}>Explore os apartamentos decorados pelo tour virtual</p>
+            <p className={Styled.title}>Explore o apartamento decorado pelo tour virtual</p>
             
             <div className={` row ${Styled.row}`}>
                 <div className={` col-12 ${Styled.col}`}>

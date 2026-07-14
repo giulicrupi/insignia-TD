@@ -180,7 +180,7 @@ export default function Contato() {
           </div>
         </div>
         <div className={Styled.tl}>
-          <p>TDSP - DIÓGENES RIBEIRO DE LIMA. Memorial de Incorporação registrado na Matrícula nº 174.572 do 10º Oficial de Registro de Imóveis de São Paulo, sob R. 2 em 15/11/2024. Todas as imagens são meramente ilustrativas.</p>
+          <p></p>
         </div>
       </div>
     </section>

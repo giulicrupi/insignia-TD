@@ -14,7 +14,7 @@ export default function Footer() {
                     <Image src="/images/ass-logo.svg" width={1536} height={729} alt="logo Teixeira Duarte" className={Styled.logoTeixeira} />
                 </div>
                 <div className={`col-lg-6 ${Styled.col}`}>
-                    <p className={Styled.textoLegal}>Copyright 2025 - Teixeira Duarte Real Estate. Todos os direitos reservados.</p>
+                    <p className={Styled.textoLegal}>TDSP - DIÓGENES RIBEIRO DE LIMA. Memorial de Incorporação registrado na Matrícula nº 174.572 do 10º Oficial de Registro de Imóveis de São Paulo, sob R. 2 em 15/11/2024. Todas as imagens são meramente ilustrativas.</p>
                     <div className={Styled.lynq}>
                         <a href="https://lynq.ag/" target="_blank">
                             Desenvolvido por: 

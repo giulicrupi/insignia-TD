@@ -25,6 +25,19 @@ $marrom: #564424;
 .sectionTour{
     background: #e7e3d9;
     padding: 10vh 0;
+    position: relative;
+    .elemento{
+        position: absolute;
+        left: -25%;
+        width: 40%!important;
+        height: auto;
+        top: -10%;
+    }
+    .align{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
     .title{
         color: $bg;
         font-weight: 200;
