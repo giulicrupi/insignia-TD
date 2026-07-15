@@ -24,7 +24,7 @@ export default function LocalizacaoCompleta() {
             <p className={Styled.decorado}>Rua Jorge Americano, 580 - Alto da Lapa</p>
 
             <div className={Styled.endereco}>
-              <p><strong>Local do empreendimento:</strong> Rua Sales Júnior, 573 - Alto da Lapa</p>
+              <p><strong>Futura portaria do empreendimento:</strong> Rua Sales Júnior, 573 - Alto da Lapa</p>
             </div>
           </div>
         </div>

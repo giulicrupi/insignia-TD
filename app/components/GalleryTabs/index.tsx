@@ -26,7 +26,7 @@ export const GalleryTabs = () => {
     { id: "areas", label: "ÁREAS COMUNS" },
     { id: "fachadas", label: "FACHADAS" },
     { id: "apartamentos", label: "APARTAMENTOS" },
-    { id: "decorado", label: "DECORADOS" },
+    { id: "decorado", label: "DECORADO" },
     { id: "plantas", label: "PLANTAS" },
     // { id: "implantacao", label: "IMPLANTAÇÃO" },
   ];
@@ -115,17 +115,17 @@ export const GalleryTabs = () => {
 
       {
         src: "/images/galerias/areas/Captura_de_tela__2025-01-08__11.jpg",
-        caption: "Perspectiva ilustrada do Espeaço gourmet | Churrasqueira",
+        caption: "Perspectiva ilustrada do Espaço gourmet e Churrasqueira",
       },      
 
       {
         src: "/images/galerias/areas/Captura_de_tela__2025-01-08__5.jpg",
         caption: "Perspectiva ilustrada do Coliving",
       },
-     {
-        src: "/images/galerias/areas/Captura_de_tela__2025-01-08__19.jpg",
-        caption: "Perspectiva ilustrada da Piscina",
-      },  
+    //  {
+    //     src: "/images/galerias/areas/Captura_de_tela__2025-01-08__19.jpg",
+    //     caption: "Perspectiva ilustrada da Piscina",
+    //   },  
       {
         src: "/images/galerias/areas/Captura_de_tela__2025-01-08__15.jpg",
         caption: "Perspectiva ilustrada da Praça do pôr do sol",

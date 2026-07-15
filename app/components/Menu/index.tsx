@@ -129,12 +129,12 @@ export const Menu = () => {
                   CONTATO
                 </Link>
               </li>
-
+{/* 
               <li className={`nav-item ${styles.dourado}`}>
                 <Link className={`nav-link ${styles.link}`} href="#contato" onClick={handleSmoothScroll}>
                   SAIBA MAIS
                 </Link>
-              </li>
+              </li> */}
 
             </ul>
           </div>
