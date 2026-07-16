@@ -83,7 +83,7 @@ export const GalleryTabs = () => {
     apartamentos: [
        {
         src: "/images/galerias/aptos/Captura_de_tela__2025-01-08__3.jpg",
-        caption: "Perspectiva ilustrada do Living ampliado com dois terraços do apartamento de 192m²",
+        caption: "Perspectiva ilustrada do Living ampliado do apartamento de 192m²",
       },     
       {
         src: "/images/galerias/aptos/Captura_de_tela__2025-01-08__2.jpg",

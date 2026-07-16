@@ -8,8 +8,8 @@ $green: #5d4e2f;
     background-size: cover!important;
     padding: 3vh;
      @media(max-width: 980px){
-        padding: 3vh;
-        height: 45vh;
+        padding: 0vh;
+        height: 28vh;
      }
      
     .container{
@@ -22,7 +22,7 @@ $green: #5d4e2f;
             color: white;
             font-weight: 300;
              @media(max-width: 980px){
-                font-size: 30px;
+                font-size: 20px;
              }
         }
         .botao{
