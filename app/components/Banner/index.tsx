@@ -48,7 +48,7 @@ export default function Banner() {
     </section>   
     <section
       className={Styled.bannerMob}
-      style={{ backgroundImage: `url(/images/banner/bannerMob.jpg)` }}
+      style={{ backgroundImage: `url(/images/banner/bannermob.jpg)` }}
       id="home"
     >
       <div className={`container ${Styled.container}`}>
