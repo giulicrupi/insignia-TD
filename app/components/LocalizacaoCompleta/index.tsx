@@ -20,7 +20,7 @@ export default function LocalizacaoCompleta() {
         {/* <Image src="/images/infinity/localizacao/img-local.jpg" className={Styled.imgLocal} width={1920} height={510} alt="" /> */}
         <div className="container">
             <div className={Styled.visite}>
-    
+    <div className={Styled.align}><p className={Styled.title}>Endereço:</p></div>
             <p className={Styled.decorado}>Rua Sales Júnior, 573 - Alto da Lapa</p>
 
          
