@@ -31,6 +31,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
+        <meta name="google-site-verification" content="TOxoX8ouS6j69Vq65iTzj1VkZua1EqB5TbcMK08maXQ" />
         {/* Google Tag Manager */}
         <Script
           id="google-tag-manager"
